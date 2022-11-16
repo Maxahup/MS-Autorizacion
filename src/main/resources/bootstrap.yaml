@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: MS-Autorizacion
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8082
+  datasource:
+    url: jdbc:mysql://localhost:3306/muebleStgo_Autorizaciones
+    username: root
+    password: Stark021
+  jpa:
+    hibernate:
+      ddl-auto: update
